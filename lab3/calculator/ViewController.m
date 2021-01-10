@@ -65,6 +65,7 @@
     self.cal.screen=[NSMutableString stringWithString:self.txtdisplay_310.text];
 }
 
+// 视图要被加载
 -(void) viewWillAppear:(BOOL)animated
 {
     self.txtdisplay_310.text = self.cal.screen;

@@ -8,7 +8,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property NSMutableString* str;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
