@@ -43,6 +43,7 @@
     [self.cal cleardisp];
 }
 
+// 准备视图切换
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([segue.identifier isEqualToString:@"SecondScene"]){
         if ([segue.destinationViewController isKindOfClass:[SecondViewController class]]){
